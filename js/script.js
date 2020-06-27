@@ -5,6 +5,20 @@ $(document).ready(function(){
         adaptiveHeight: true,
         adaptiveWidth: true,
         
+        responsive: [
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 560,
+                settings: {
+                    slidesToShow: 2
+                }
+            }
+        ]
     });
 });
 
