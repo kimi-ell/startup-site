@@ -152,7 +152,7 @@
     }  
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
 
     .conteiner {
         width: 720px;
@@ -262,9 +262,9 @@
         top: 92%;
         right: 7%;
     }  
-} */
+}
 
-@media (max-width: 760px) {
+@media (max-width: 560px) {
 
     .conteiner {
         width: 520px;
