@@ -1,0 +1,247 @@
+@media (max-width: 1100px) {
+    .conteiner {
+        width: 960px;
+    }
+
+    .up {
+        right: 4%;
+    }
+
+    .social-icon-list {
+        padding-top: 150px;
+    }
+
+    .works-block-img li:not(:nth-child(3n)) {
+        margin-right: 0;
+    }
+
+    .works-block-img li:nth-child(odd) {
+        margin-right: 30px;
+    }
+
+    .works-banner-title {
+        font-size: 28px;
+    }
+
+    .contact-block-info-left {
+        margin-left: 40px;
+    }
+
+    .contact-block-info-right {
+        margin-left: 80px;
+        text-align: left;
+    }
+
+    .contact-input {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .contact-input:nth-child(odd) {
+        margin-right: 10px;
+    }
+
+    .contact-form textarea {
+        width: 513px;
+    }
+
+    .contact-info-btn {
+        margin-right: 20px;
+    }
+
+    .contact-form label {
+        display: inline-block;
+        
+        color: #555555;
+        font-size: 11px;
+    }   
+
+    .contact-form span {
+        color: #C0301C;
+    }
+}
+
+@media (max-width: 930px) {
+    .conteiner {
+        width: 840px;
+    }
+
+    .heaedr-block-title {
+        font-size: 42px;
+        line-height: 22px;
+        margin-bottom: 36px;
+    }
+
+    .heaedr-block-subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 36px;
+    }
+
+    .button-get {
+        font-size: 14px;
+        line-height: 22px;
+        width: 160px;
+        height: 50px;
+    }
+
+    .social-icon-list {
+        padding-top: 130px;
+    }
+
+    .workers-block .slick-arrow {
+        width: 25px;
+        height: 28px;
+    }
+
+    .clients-logo {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .clients-logo-item:not(:last-child) {
+        margin-right: 45px;
+    }
+
+    .clients-slide-text {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .cliemts-slide-sign {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .clients-slider .slick-dots button {
+        width: 10px;
+        height: 10px;
+    }
+
+     .contact-block-info-right {
+        margin-left: 60px;
+        text-align: left;
+    }
+
+    .contact-input {
+        width: 200px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .contact-form textarea {
+        width: 413px;
+        font-size: 12px;
+    }
+
+    .contact-form label {
+        line-height: 18px;
+    }
+
+    .contact-info-btn {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .up {
+        top: 92%;
+        right: 3%;
+    }  
+}
+
+@media (max-width: 760px) {
+    .conteiner {
+        width: 720px;
+    }
+
+    .header-nav {
+    margin: 0 20px;
+    }
+
+    .services-card:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .services-card-icon {
+        margin-bottom: 20px;
+    }
+
+    .services-card-icon img  {
+        width: 35%;
+    }
+
+    .services-card-title {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 14px;
+    }
+
+    .social-icon-list {
+        padding-top: 100px;
+    }
+
+    .works-img {
+        width: 280px;
+    }
+
+    .works-banner-title {
+        font-size: 26px;
+    }
+
+    .contact-block-info {
+        display: block;
+    }
+
+    .contact-block-info-left {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    .contact-block-info-right {
+        text-align: left;
+        margin-left: 0;
+        margin: 0 10px;
+    }
+
+    .contact-input {
+        width: 49%;
+        height: 45px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 15px;    
+    }
+
+    .contact-form label {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .contact-info-btn {
+        left: 0;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .clients-logo {
+        width: 710px;
+    }
+
+    .clients-logo-item img {
+        width: 75%;
+    }
+
+    .clients-logo-item:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    .up {
+        top: 92%;
+        right: 7%;
+    }  
+}
