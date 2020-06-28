@@ -432,6 +432,10 @@
         margin-bottom: 20px;
     }
 
+    .social-icon-list {
+        padding-top: 180px;
+    }
+
     .categories-list {
         display: flex;
         flex-wrap: wrap;
@@ -480,19 +484,39 @@
         margin-right: 0;
     }
 
+    .clients-slide-text {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .cliemts-slide-sign {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .clients-slider .slick-dots button {
+        width: 8px;
+        height: 8px;
+    }
+
+    .clients-slider .slick-dots li {
+        margin-top: 20px;
+    }
+
     .contact-block-info-left {
         display: block;
     }
 
     .contact-input {
-        width: 50%;
+        width: 100%;
         height: 45px;
         margin-bottom: 15px;
         font-size: 12px;
     }
 
     .contact-form textarea {
-        width: 50%;
+        width: 100%;
         font-size: 12px;
         margin-bottom: 15px;    
     }
