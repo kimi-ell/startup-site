@@ -389,18 +389,93 @@
 
 @media (max-width: 375px) {
     .conteiner {
-        width: 365px;
+        width: 370px;
+        padding: 0 15px;
+    }
+
+    .heaedr-block-title {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    .heaedr-block-subtitle {
+        font-size: 16px;
+        margin-bottom: 34px;
+    }
+
+    .button-get {
+        width: 140px;
+    }
+
+    .subtitle {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .block-services-card {
+        display: block;
+        text-align: center;
+        width: 340px;
+    }
+
+    .services-card {
+        width: 340px;
+    }
+
+    .services-card:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .categories-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .categories-item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .categories-item:not(:nth-last-child(-n+2)) {
+        margin-right: 20px;
+    }
+
+    .works-block-img li:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .works-banner-title {
+        font-size: 22px;
     }
 
     .clients-logo {
         width: 340px;
     }
 
+    .services-card-icon img  {
+        width: 25%;
+    }
+
+    .clients-logo-item:not(:nth-child(3n)) {
+        margin-right: 25px;
+    }
+
+    .clients-logo-item:not(:nth-child(3n)) {
+        margin-right: 0;
+    }
+
+    .clients-logo-item:
+
     .clients-logo-list {
         display: flex;
         flex-wrap: wrap;
-        width: 340px;
+        width: 100%;
         margin-right: 0;
+    }
+
+    .contact-block-info-left {
+        display: block;
     }
 
     .contact-input {
@@ -422,12 +497,12 @@
     }
 
     .blog-img img {
-        width: 30%;
+        width: 100%;
     }
 
     .up {
         top: 92%;
-        right: 3%;
+        right: 5%;
     } 
 
 }
