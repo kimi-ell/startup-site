@@ -388,8 +388,10 @@
 }
 
 @media (max-width: 375px) {
+    
+
     .conteiner {
-        width: 370px;
+        width: 360px;
         padding: 0 15px;
     }
 
@@ -455,6 +457,10 @@
 
     .works-banner-title {
         font-size: 22px;
+    }
+
+    .blog-date {
+        height: 66px;
     }
 
     .clients-logo {
