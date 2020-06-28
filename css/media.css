@@ -386,3 +386,48 @@
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 375px) {
+    .conteiner {
+        width: 365px;
+    }
+
+    .clients-logo {
+        width: 340px;
+    }
+
+    .clients-logo-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 340px;
+        margin-right: 0;
+    }
+
+    .contact-input {
+        width: 50%;
+        height: 45px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .contact-form textarea {
+        width: 50%;
+        font-size: 12px;
+        margin-bottom: 15px;    
+    }
+
+    .blog-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog-img img {
+        width: 30%;
+    }
+
+    .up {
+        top: 92%;
+        right: 3%;
+    } 
+
+}
