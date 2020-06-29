@@ -466,7 +466,7 @@
         margin-right: 0;
     }
 
-    .categories-item:not(:nth-last-child(-n+2)) {
+    .categories-item:not(:last-child) {
         margin-right: 20px;
     }
 
