@@ -545,7 +545,7 @@
     } 
 }
 
-@media (min-device-width : 320px) {
+@media (max-device-width : 320px) {
     
 
     .conteiner {
