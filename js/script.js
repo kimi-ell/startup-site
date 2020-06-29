@@ -19,9 +19,21 @@ $(document).ready(function(){
                 }
             },
             {
+                breakpoint: 415,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
+                }
+            },
+            {
                 breakpoint: 380,
                 settings: {
-                    slidesToShow: 1
+                    arrows: false,
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
                 }
             }
         ]

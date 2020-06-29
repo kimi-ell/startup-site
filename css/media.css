@@ -396,6 +396,7 @@
 @media (max-width : 412px) {
     .conteiner {
         width: 100%;
+        padding: 0 15px;
     }
 
     .header-block {
@@ -427,15 +428,30 @@
         display: block;
         text-align: center;
         width: 340px;
+        margin: 0 20px; 
     }
 
-    .services-card {
-        width: 340px;
+    .services-card-title {
+        font-size: 18px;
+    }
+
+    .services-card-text {
+        font-size: 16px;
     }
 
     .services-card:not(:last-child) {
         margin-bottom: 20px;
     }
+
+    .services-card:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .services-card {
+        width: 340px;
+        margin-right: 0;
+    }
+
 
     .social-icon-list {
         padding-top: 180px;
@@ -489,7 +505,7 @@
     .clients-logo-list {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 400px;
         margin-right: 0;
     }
 
@@ -549,8 +565,7 @@
     
 
     .conteiner {
-        width: 360px;
-        padding: 0 15px;
+        
     }
 
     .header-block {
