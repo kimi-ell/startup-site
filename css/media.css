@@ -395,7 +395,7 @@
 
 @media (max-width : 412px) {
     .conteiner {
-        padding: 0 15px;
+        width: 100%;
     }
 
     .header-block {
